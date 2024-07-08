@@ -358,10 +358,10 @@ const HomePage = () => {
                 <label htmlFor="message" className="sr-only">
                   Message
                 </label>
-                <textarea
+                   <textarea
                   id="message"
                   name="message"
-                  rows="4"
+                  rows={4}  
                   className="block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                   placeholder="Message"
                 ></textarea>
