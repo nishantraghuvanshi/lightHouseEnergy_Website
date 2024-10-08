@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import TeamSection from "@/app/_components/aboutUs-components/team";
 
 const AboutUsPage = () => {
   return (
@@ -35,6 +36,9 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <TeamSection />
       </div>
 
       {/* Main Content */}

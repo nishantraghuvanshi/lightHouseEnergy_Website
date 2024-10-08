@@ -22,7 +22,7 @@ export default function RootLayout({
         <title>Light House Energy</title>
         <link rel="icon" href="/lighthouselogo.png" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} font-serif`}>
         <Navbar />
         {children}
         <Footer />
