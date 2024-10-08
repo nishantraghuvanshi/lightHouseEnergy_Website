@@ -3,13 +3,13 @@ import Image from 'next/image';
 const Testimonials = () => {
     return (
       <div>
-        <section className="bg-gray-800 text-gray-100">
-          <div className="container flex flex-col items-center mx-auto mb-14 pb-12 md:p-10 md:px-12">
+        <section className="bg-gray-700 text-gray-100">
+          <div className="container flex flex-col items-center mx-auto  md:p-10 md:px-12">
             <h1 className="p-4 text-4xl font-semibold leading-none text-center">
               What our customers are saying about us
             </h1>
           </div>
-          <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
+          <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-12 pb-10">
             <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-900">
                 <p className="relative px-6 py-1 text-lg italic text-center text-gray-100">
